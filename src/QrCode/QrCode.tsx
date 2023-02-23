@@ -5,7 +5,7 @@ function QrCode() {
   return (
     <div className="bg-light-gray h-screen w-full">
       <div className="w-full h-full flex justify-center items-center">
-        <div className="w-5/6 h-[75%] min-h-[500px] bg-white rounded-3xl">
+        <div className="w-5/6 max-w-[312.5px] h-[500px] bg-white rounded-3xl">
           <div className="h-full flex flex-col">
             <div className="w-full flex justify-center mt-4">
               <div className="w-[90%] max-w-[280px]">
